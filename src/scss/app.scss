@@ -35,6 +35,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 900px;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   }
 }
 

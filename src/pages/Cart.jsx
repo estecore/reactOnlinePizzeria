@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
@@ -138,7 +137,7 @@ export default function Cart() {
                 </span>
               </div>
               <div className="cart__bottom-buttons">
-                <Link to="/" className="button button--outline button--add go-back-btn">
+                <Link to="" className="button button--outline button--add go-back-btn">
                   <svg
                     width="8"
                     height="14"
@@ -172,7 +171,7 @@ export default function Cart() {
               Для того, чтобы заказать пиццу, перейдите на главную страницу.
             </p>
             <img src={cartEmptyImage} alt="Empty cart" />
-            <Link to="/" className="button button--black">
+            <Link to="" className="button button--black">
               <span>Вернуться назад</span>
             </Link>
           </div>
